@@ -1,5 +1,8 @@
 # gaseto_http
 
+[![Package Version](https://img.shields.io/hexpm/v/gaseto_http)](https://hex.pm/packages/gaseto_http)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gaseto_http/)
+
 Send, read and check PASETO tokens over HTTP, with
 [Gaseto](https://github.com/atomfinger/gaseto). It works with any server built
 on [gleam_http](https://hexdocs.pm/gleam_http/), such as Wisp and Mist.
