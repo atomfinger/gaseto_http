@@ -1,0 +1,18 @@
+name = "gaseto_http"
+version = "1.0.0"
+target = "erlang"
+gleam = ">= 1.12.0"
+
+description = "Read, check and send PASETO tokens over HTTP with Gaseto"
+licences = ["MIT"]
+repository = { type = "github", user = "atomfinger", repo = "gaseto_http" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_http = ">= 4.1.0 and < 5.0.0"
+gleam_json = ">= 3.1.0 and < 4.0.0"
+gleam_time = ">= 1.11.0 and < 2.0.0"
+gaseto = ">= 1.0.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
