@@ -98,8 +98,8 @@ the token that `require_verified_bearer` passes on.
 ### Cookies
 
 For a browser, the token can live in a cookie instead. `set_token_cookie`
-stores it, `verify_cookie` or `decrypt_cookie` read it back, and
-`expire_token_cookie` deletes it on logout:
+tells the browser to keep it, `verify_cookie` or `decrypt_cookie` read it
+back, and `expire_token_cookie` tells the browser to delete it on logout:
 
 ```gleam
 response.new(200)

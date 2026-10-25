@@ -251,7 +251,8 @@ pub fn require_decrypted_cookie(
   }
 }
 
-/// Stores the token in a cookie for this long. The cookie is `HttpOnly`, so
+/// Adds a `Set-Cookie` header that tells the browser to keep the token in a
+/// cookie for this long. The cookie is `HttpOnly`, so
 /// scripts cannot read it, `Secure`, so it is only sent over HTTPS,
 /// `SameSite=Lax`, and set for the whole site with `Path=/` and no `Domain`.
 /// See the
